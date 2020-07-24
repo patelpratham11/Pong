@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pong </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="name">
+      Pong by Pratham
+    </div>
+    <div id="one" class="one">
+      Score Player One: 0
+    </div>
+    <div id="two" class="two">
+      Score Player Two: 0
+    </div>
+    <div id="goal">The Goal is the First One to 10!</div>
+    <div id="winner"></div>
+    <canvas id="myCanvas" width="480" height="320" onclick="requestAnimationFrame(draw);"></canvas>
+    <script src="game.js" charset="utf-8"></script>
+  </body>
+</html>
